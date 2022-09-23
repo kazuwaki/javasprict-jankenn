@@ -27,3 +27,18 @@ ul {
   width: 20%;
   padding: 10px;
 }
+
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 0 10px;
+    margin: 10px auto;
+  }
+
+  #mainvisual {
+    padding: 5px;
+  }
+  #thumbnail li {
+    padding: 5px;
+  }
+}
